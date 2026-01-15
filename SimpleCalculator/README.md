@@ -1,1 +1,1 @@
-# Developing a simple calculator in C
+# Calculadora em C
