@@ -4,8 +4,8 @@ Este repositório contém pequenos projetos em C criados para aprendizagem prát
 
 ## Projetos incluídos
 
-- **Algoritmos/bubblesort.c** – implementação de ordenação bubble sort em C.
 - **Calculadora/** – calculadora de linha de comando que demonstra entrada/saída, operadores e estruturas de decisão. Consulte `Calculadora/README.md` para mais detalhes.
+- **Sistema-de-biblioteca/** - Um sistema que cadastra uma série de informações sobre um livro, feito para demonstrar o uso de structs e encapsulamento. Consulte `Sistema-de-biblioteca/README.` para mais detalhes.
 
 ## Como usar
 
