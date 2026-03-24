@@ -11,16 +11,25 @@ int main() {
     puts("type a operation: +, -, /, %%");
     scanf(" %c", &operation);
 
-    if (operation == '+') {
-        return printf("A soma é: %d + %d = %d\n", num1, num2, num1 + num2);
-    } else if (operation == '-') {
-        return printf("A subtração é: %d - %d = %d\n", num1, num2, num1 - num2);
-    } else if (operation == '*') {
-        return printf("A multiplicação é: %d * %d = %d\n", num1, num2, num1 * num2);
-    } else if (operation == '/') {
-        return printf("A divisão é: %d / %d = %.2f\n", num1, num2, (float) num1 / num2);
-    } else if (operation == '%') {
-        return printf("O resto da divisão é: %d %% %d = %d\n", num1, num2, num1 % num2);
+    switch (operation) {
+        case '+':
+            printf("A soma é: %d + %d = %d\n", num1, num2, num1 + num2);
+            break;
+        case '-':
+            printf("A subtração é: %d - %d = %d\n", num1, num2, num1 - num2);
+            break;
+        case '*':
+            printf("A multiplicação é: %d * %d = %d\n", num1, num2, num1 * num2);
+            break;
+        case '/':
+            printf("A divisão é: %d / %d = %.2f\n", num1, num2, (float) num1 / num2);
+            break;
+        case '%':
+            printf("O resto da divisão é: %d %% %d = %d\n", num1, num2, num1 % num2);
+            break;
+        default:
+            printf("Operação inválida!\n");
+            break;
     }
 
     return 0;
